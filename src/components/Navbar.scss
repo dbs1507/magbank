@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #8c00b2;
+    border-bottom: 0.2rem solid #f05656;
+
+    //altera cor da letra do botao "acessar minh conta para branco"
+    .dropdown-toggle.nav-link {
+        color: #fff;
+    }
+
+    //cria responsividade passando o mouse em cima e mudando de cor a letra para branco
+    .dropdown-toggle.nav-link:hover {
+        color: #212529;
+
+    }
+}

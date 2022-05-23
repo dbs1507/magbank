@@ -1,0 +1,45 @@
+.faq {
+    background-color: #443a50;
+    max-width: 100%;
+
+
+}
+
+.faq_accordion {
+    background-color: unset;
+}
+
+.accordion-button {
+    background-color: #31293a;
+    color: #c0b6cc;
+}
+
+
+
+.faq-title-mobile {
+    font-size: 35px;
+    text-align: center;
+}
+
+.faq-title-desk {
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: #c0b6cc;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #31293a;
+}
+
+.accordion-body {
+    background-color: #443a50;
+}
+
+.lead {
+    text-align: center;
+}
