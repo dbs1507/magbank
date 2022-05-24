@@ -3,7 +3,6 @@ import Hero from "../components/Hero"
 import CardList from "../components/CardList";
 import "../App.scss";
 import CreditCard from "../components/CreditCard";
-import posts from '../data/posts.js';
 import CenteredButton from "../components/CenteredButton";
 import Institutional from "../components/Institutional";
 import Faq from "../FAQ";
@@ -18,7 +17,7 @@ const Home = ({ handleClick }) => {
             <Hero onClick={() => setShowModal(true)} />
 
             <CreditCard />
-            <CardList posts={posts} />
+            <CardList />
             <CenteredButton onClick={handleClick}>Abra sua conta</CenteredButton>
 
             <Institutional onClick={() => setShowModal(true)} />

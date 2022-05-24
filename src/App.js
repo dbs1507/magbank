@@ -61,7 +61,7 @@ const App = () => {
 
 
       <Footer />
-      <AccountModal show={showModal} handleClose={() => setShowModal(false)} />
+      <AccountModal show={showModal} handleClose={() => setShowModal(false)} auth={fakeAuth} />
     </>
 
   )
