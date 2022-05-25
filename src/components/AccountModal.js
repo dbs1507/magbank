@@ -25,7 +25,7 @@ const AccountModal = ({ show, handleClose, auth }) => {
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label>Seu emial</Form.Label>
+                        <Form.Label>Seu email</Form.Label>
                         <Form.Control type="email" placeholder="Seu email" />
                     </Form.Group>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button, Tab, Tabs, Form } from "react-bootstrap";
+import { Container, Row, Col, Button, Tab, Tabs, Form, Alert } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faCircle } from "@fortawesome/free-solid-svg-icons";
@@ -117,17 +117,25 @@ const Payments = () => (
                         <Col xs={11} lg={15} className="mt-2">
                             <Row>
                                 <Col>
-                                    <Form.Group controlId="formBarTrans" className="mb-lg-3">
+                                    <Form.Group controlId="formBarTrans" className="mb-lg-3 d-none d-lg-inline-block">
                                         <Form.Label>Valor da Transferência</Form.Label>
                                         <Form.Control type="number" placeholder="R$" />
                                     </Form.Group>
+                                    <Form.Group controlId="formBarTrans" className="mb-3 mt-4 d-lg-none">
+                                        <Form.Label>Valor da Transferência</Form.Label>
+                                        <Form.Control type="number" placeholder="R$" />
+                                    </Form.Group>
+                                    <Button className="mt-3" variant="success">Transferir</Button>
+
 
                                 </Col>
                                 <Col className="" >
                                     <Form.Group controlId="formBarExtrato" className="mb-lg-3">
                                         <Form.Label>Identificação nos extratos</Form.Label>
                                         <Form.Control type="number" />
+
                                     </Form.Group>
+
                                 </Col>
                             </Row>
                         </Col>

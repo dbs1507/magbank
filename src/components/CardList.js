@@ -7,16 +7,17 @@ import image3 from "../assets/cliente_4.jfif"
 
 const CardList = () => (
     <Container>
-        <h2 className='title-cardlist-desk mb-5 d-none d-lg-block '>Nossos clientes</h2>
-        <h2 className='title-cardlist-mobile mb-3 d-lg-none'>Nossos clientes</h2>
+        <h2 className='title-cardlist-desk mb-5 d-none d-lg-block '><strong>NOSSOS CLIENTES</strong></h2>
+        <h2 className='title-cardlist-mobile my-2 mb-3  d-lg-none'>NOSSOS CLIENTES</h2>
         <Row>
             <Carousel className='mb-5 d-none d-lg-block'>
                 <Carousel.Item>
                     <img
-                        class="rounded-circle"
+                        bo
+                        class="rounded-circle border border-light"
                         src={image1}
                         alt="First slide"
-                        width="350px"
+                        width="370px"
 
                     />
 
@@ -28,10 +29,10 @@ const CardList = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        class="rounded-circle"
+                        class="rounded-circle border border-light"
                         src={image2}
                         alt="Second slide"
-                        width="350px"
+                        width="370px"
 
 
                     />
@@ -46,10 +47,10 @@ const CardList = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        class="rounded-circle"
+                        class="rounded-circle border border-light"
                         src={image3}
                         alt="Third slide"
-                        width="350px"
+                        width="370px"
                     />
 
 
@@ -72,42 +73,42 @@ const CardList = () => (
 
 
 
-            <Carousel className='mb-5 d-lg-none'>
+            <Carousel className='mb-5 mt-4 d-lg-none'>
                 <Carousel.Item>
                     <img
                         class="rounded-circle"
                         src={image1}
                         alt="First slide"
-                        width="150px"
+                        width="170px"
 
                     />
 
                     <h6 className='name-carrosel-mobile'>Fábio Lima, 40 anos</h6>
-                    <p className='text-desc-mobile'>'Muito satisfeito com proposta do banco. É tudo simples, rápido e justo. Praticidade na palma da mão'</p>
+                    <p className='text-desc-mobile'>'Muito satisfeito com proposta do banco.'</p>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         class="rounded-circle"
                         src={image2}
                         alt="Second slide"
-                        width="150px"
+                        width="170px"
 
 
                     />
 
                     <h6 className='name-carrosel-mobile'>Gabriel Ramos, 35 anos</h6>
-                    <p className=' text-desc-mobile'>'Realmente a propagada é verdadeira. O que o MagBank propõe é algo incrível'</p>
+                    <p className=' text-desc-mobile'>'O que o MagBank propõe é algo incrível'</p>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         class="rounded-circle"
                         src={image3}
                         alt="Third slide"
-                        width="150px"
+                        width="170px"
                     />
 
                     <h6 className='name-carrosel-mobile'>Marcos Almeida, 37 anos</h6>
-                    <p className=' text-desc-mobile'>'Melhor banco da atualidade. Sem burocracia e enrolação, parece mágica'</p>
+                    <p className=' text-desc-mobile'>'Sem burocracia e enrolação, parece mágica'</p>
                 </Carousel.Item>
             </Carousel>
         </Row>

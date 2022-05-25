@@ -7,7 +7,7 @@
 }
 
 .title-cardlist-mobile {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 90px;
     color: #8c00b2;
@@ -20,13 +20,18 @@
 
 .text-desc {
     color: #4a035e;
-    margin-bottom: 70px;
+    margin-bottom: 200px;
     margin-left: 200px;
+    text-align: justify;
+    font-style: italic;
 }
 
 .text-desc-mobile {
     color: #4a035e;
+    text-align: justify;
     margin-right: 200px;
+    font-style: italic;
+    gap: 20px;
 
 }
 
@@ -40,6 +45,7 @@
     color: #4a035e;
     margin-top: 30px;
     margin-right: 80px;
+    align-items: center;
 }
 
 .carousel-control-prev-icon {
@@ -50,4 +56,11 @@
 .carousel-control-next-icon {
     background-color: #dac2e0;
     margin-left: 100px;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
 }

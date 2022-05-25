@@ -28,7 +28,7 @@ const Navigation = ({ onClick }) => (
                 <ButtonGroup aria-label="Basic example">
                     <Button variant="outline-light">
                         <NavDropdown title="Acessar minha conta" id="basic-nav-dropdown">
-                            <NavDropdown.Item>
+                            <NavDropdown.Item >
                                 <Link to="/login">
                                     Pessoa física
                                 </Link>

@@ -41,7 +41,9 @@ const Login = ({ auth }) => {
                                 </Form.Label>
                                 <Form.Control type="password" />
                             </Form.Group>
-                            <Button className="mt-3" variant="success" type="submit" onClick={handleSubmit}>
+                            <Button className="mt-3" variant="success" type="submit"
+                                onClick={handleSubmit}>
+
                                 Criar conta
                             </Button>
 

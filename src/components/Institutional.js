@@ -16,14 +16,14 @@ const Institutional = ({ onClick }) => (
             <Row>
                 <Col xs={12} lg={5} />
                 <Col xs={12} lg={7}>
-                    <h2 className="institutional-title-desk d-none d-lg-inline-block">Já nascemos digital</h2>
+                    <h2 className="institutional-title-desk d-none d-lg-inline-block">JÁ NASCEMOS DIGITAL</h2>
                     <p className="institutional-text-desk d-none d-lg-inline-block">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem eius dolorem consectetur nulla voluptas accusamus dolores, delectus et repellendus quo quos ratione optio excepturi voluptate id culpa quibusdam ullam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem eius dolorem consectetur nulla voluptas accusamus dolores, delectus et repellendus quo quos ratione optio excepturi voluptate id culpa quibusdam ullam.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem eius dolorem consectetur nulla voluptas accusamus dolores, delectus et repellendus quo quos ratione optio excepturi voluptate id culpa quibusdam ullam.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem eius dolorem consectetur nulla voluptas accusamus dolores, delectus et repellendus quo quos ratione optio excepturi voluptate id culpa quibusdam ullam.
                     </p>
 
-                    <h2 className="institutional-title-mobile d-lg-none d-lg-inline-block">Já nascemos digital</h2>
+                    <h2 className="institutional-title-mobile d-lg-none d-lg-inline-block">JÁ NASCEMOS DIGITAL</h2>
                     <p className="institutional-text-mobile d-lg-none">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem eius dolorem consectetur nulla voluptas accusamus dolores, delectus et repellendus quo quos ratione optio excepturi voluptate id culpa quibusdam ullam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem eius dolorem consectetur nulla voluptas accusamus dolores, delectus et repellendus quo quos ratione optio excepturi voluptate id culpa quibusdam ullam.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem eius dolorem consectetur nulla voluptas accusamus dolores, delectus et repellendus quo quos ratione optio excepturi voluptate id culpa quibusdam ullam.

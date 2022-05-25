@@ -16,8 +16,8 @@ const CreditCard = () => (
     <div className='Jumbotron text-center text-light'>
         <Row className="my-lg-5">
             <Col lg className="text-lg-end my-lg-5 px-lg-5"> {/*lg so aplica a coluna no desktop, quando for mobile, deixa um em baixo do outro */}
-                <p className="mid-font-mobile d-lg-none mt-5">Cartão de crédito</p>
-                <p className="mid-font d-none d-lg-inline-block my-lg-5 px-lg-5">Cartão de crédito</p>
+                <p className="mid-font-mobile d-lg-none mt-5">CARTÃO DE CRÉDITO</p>
+                <p className="mid-font d-none d-lg-inline-block my-lg-5 px-lg-5">CARTÃO DE CRÉDITO</p>
                 <Row>
                     <Col className="text-start d-lg-none mx-5 px-4">
                         <p className="mid-mobile-text d-lg-none d-flex">

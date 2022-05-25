@@ -31,7 +31,7 @@ const Faq = () => {
         <section className="text-light">
             <Container className="py-5 faq">
                 <Row className="d-lg-none d-flex align-items-center justify-items-center">
-                    <h2 className="faq-title-mobile d-lg-none text-light mb-5">Dúvidas frequentes</h2>
+                    <h2 className="faq-title-mobile d-lg-none text-light mb-5">DÚVIDAS FREQUENTES</h2>
                 </Row>
                 <Row className="d-flex align-items-center justify-items-center">
                     <Col className="d-lg-none mb-5" xs={12}>
@@ -55,7 +55,7 @@ const Faq = () => {
                 </Row>
 
 
-                <h2 className="faq-title-desk d-none d-lg-block text-light">Dúvidas frequentes</h2>
+                <h2 className="faq-title-desk d-none d-lg-block text-light">DÚVIDAS FREQUENTES</h2>
                 <Col className="d-none d-lg-block mb-5">
                     <Row>
                         {options.map(({ icon }, key) => (
