@@ -79,10 +79,10 @@ const CardList = () => (
                         class="rounded-circle"
                         src={image1}
                         alt="First slide"
-                        width="170px"
+                        width="172px"
 
                     />
-                    <h6 className='text-desc-mobile mt-4'>'Muito satisfeito com proposta do banco.'</h6>
+                    <h6 className='text-desc-mobile mt-4 pr-1'>'Muito satisfeito com proposta do banco.'</h6>
                     <p className='name-carrosel-mobile'>Samuel Oliveira, 40 anos</p>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -90,11 +90,11 @@ const CardList = () => (
                         class="rounded-circle"
                         src={image2}
                         alt="Second slide"
-                        width="170px"
+                        width="172px"
 
 
                     />
-                    <h6 className='text-desc-mobile mt-4'>'O que o MagBank propõe é algo incrível'</h6>
+                    <h6 className='text-desc-mobile mt-4 pr-1'>'O que o MagBank propõe é algo incrível'</h6>
                     <p className='name-carrosel-mobile'>Gabriel Ramos, 35 anos</p>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -103,9 +103,9 @@ const CardList = () => (
                         class="rounded-circle"
                         src={image3}
                         alt="Third slide"
-                        width="170px"
+                        width="172px"
                     />
-                    <h6 className='text-desc-mobile mt-4'>'Sem burocracia e enrolação'</h6>
+                    <h6 className='text-desc-mobile mt-4 pr-1'>'Banco sem burocracia. Praticidade é o que define'</h6>
                     <p className='name-carrosel-mobile'>Marcos Almeida, 37 anos</p>
                 </Carousel.Item>
             </Carousel>
