@@ -11,6 +11,7 @@ const Login = ({ auth }) => {
 
     const handleSubmit = () => {
         auth.login(name, account, history("/dashboard"));
+
     }
 
     return (

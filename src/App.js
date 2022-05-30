@@ -36,7 +36,7 @@ const App = () => {
 
   const PrivateRoute = ({ Component, logged }) => {
     return (
-      logged ? <Component name={name} account={account} /> : <Navigate to="/login" />
+      logged ? <Component name={name} account={account} /> : <useNavigate to="/login" />
 
     );
   }

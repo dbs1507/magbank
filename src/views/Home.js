@@ -14,13 +14,13 @@ const Home = ({ handleClick }) => {
 
     return (
         <>
-            <Hero onClick={() => setShowModal(true)} />
+            <Hero onClick={handleClick} />
 
             <CreditCard />
             <CardList />
             <CenteredButton onClick={handleClick}>Abra sua conta</CenteredButton>
 
-            <Institutional onClick={() => setShowModal(true)} />
+            <Institutional onClick={handleClick} />
             <Faq />
             <AccountModal show={showModal} handleClose={() => setShowModal(false)} />
 
