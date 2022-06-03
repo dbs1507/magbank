@@ -117,7 +117,7 @@ const Payments = () => (
                         <Col xs={11} lg={15} className="mt-2">
                             <Row>
                                 <Col>
-                                    <Form.Group controlId="formBarTrans" className="mb-lg-3 d-none d-lg-inline-block">
+                                    <Form.Group controlId="formBarTrans" className="mb-lg-3 mx-lg-5 d-none d-lg-inline">
                                         <Form.Label>Valor da Transferência</Form.Label>
                                         <Form.Control type="number" placeholder="R$" />
                                     </Form.Group>
@@ -125,16 +125,25 @@ const Payments = () => (
                                         <Form.Label>Valor da Transferência</Form.Label>
                                         <Form.Control type="number" placeholder="R$" />
                                     </Form.Group>
-                                    <Button className="mt-3" variant="success">Transferir</Button>
+                                    <div>
+                                        <Button className="mt-3" variant='success'>Transferir</Button>
+                                    </div>
+
 
 
                                 </Col>
-                                <Col className="" >
-                                    <Form.Group controlId="formBarExtrato" className="mb-lg-3">
+                                <Col className="px-lg-5" >
+                                    <Form.Group controlId="formBarExtrato" className="mb-lg-3 mx-lg-5 d-none d-lg-inline">
                                         <Form.Label>Identificação nos extratos</Form.Label>
                                         <Form.Control type="number" />
 
                                     </Form.Group>
+                                    <Form.Group controlId="formBarExtrato" className="mt-4 d-lg-none">
+                                        <Form.Label>Identificação nos extratos</Form.Label>
+                                        <Form.Control type="number" />
+
+                                    </Form.Group>
+
 
                                 </Col>
                             </Row>
